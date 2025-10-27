@@ -10076,3 +10076,113 @@ button.acceptedds {
     height: 320px;
   }
 }
+
+
+
+
+/* Section Wrapper */
+.contact-section {
+  padding: 50px 5%;
+  background: #206046;
+}
+
+/* Main Flex Layout */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Left Image */
+.contact-img {
+  flex: 1;
+  min-width: 280px;
+  height: 250px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Right Side Content */
+.contact-content {
+  flex: 2;
+}
+
+/* Contact Details Row */
+.contact-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Individual Detail Box */
+.contact-details {
+  flex: 1 1 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.contact-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.location_icon{
+	color: red;
+}
+
+.fa-envelope{
+	color: burlywood;
+}
+
+.fa-phone{
+	color: greenyellow;
+}
+
+/* .contact-link:hover {
+  color: #b68d40;
+} */
+
+/* Bottom Message */
+.contact-btn-wrap {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-btn-wrap h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-details-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-details {
+    justify-content: center;
+  }
+
+  .contact-btn-wrap h3 {
+    font-size: 18px;
+  }
+}
