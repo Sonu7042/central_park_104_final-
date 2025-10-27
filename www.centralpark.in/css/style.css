@@ -9806,9 +9806,18 @@ button.acceptedds {
     -o-transition: all .5s linear;
     transition: all .5s linear;
     line-height: 20px;
-}.mainwrap footer .footerinner .footermedia
-@media and screen and (min-width:320px) and (max-width:767px){
+}
+.mainwrap footer .footerinner .footermedia{
+
+}
+
+@media  (min-width:320px) and (max-width:767px){
     .title .h2 {
     color: #fff;
 }
 }
+
+
+
+
+/* header style */
