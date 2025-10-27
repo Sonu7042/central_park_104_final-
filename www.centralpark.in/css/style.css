@@ -9908,6 +9908,21 @@ button.acceptedds {
 
 /* roh css style */
 
+.custom--heading{
+	margin-top: 10px;
+
+}
+
+
+
+.mainwrap .projectssection {
+    width: 100%;
+    float: left;
+    position: relative !important;
+    background: rgba(255, 255, 255, .5);
+    padding-bottom: 53px;
+}
+
 
 
 
