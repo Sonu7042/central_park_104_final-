@@ -417,110 +417,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="top70 padd80">
     <div class="width90">
         <h1 class="heading">
-            Central Park Projects Hub: Uncover Gurgaon Sohna Road Properties - Features, Possession, Typology, Location
+            Amenities
         </h1>
         
-        <form class="d-flex"  method="POST" id="listing_form">
-            
-            <div class="from-flex">
-                <div class="search">
-                    <input type="text" placeholder="SEARCH BY PROJECT NAME" name="search_title" id="search_title"/>
-                    <button type="button" id="submit" value="submit" class="searchByname searchwith"><i class="fa fa-search"></i></button>
-                </div>
-            </div>
-            
-            <div class="from-flex">
-                <div class="caret">
-                    <select class="form-control js-example-basic-single price_box" name="pro_type" id="pro_type">
-                      <option value="">PROJECT</option>
-                       <option value="">All</option>
-                       <option value="Residential" >Residential</option>
-                       <!--<option value="Commercial">Commercial</option>-->
-                       <!--<option value="Hospitality">Hospitality</option>-->
-                       <option value="Leasing" >Leasing</option>
-                    </select>
-                </div>
-            </div>
-            
-            <div class="from-flex hide_box">
-                <div class="caret">
-                    <select class="form-control js-example-basic-single" name="pro_subtype" id="pro_subtype">
-                      <option value="">PROJECT TYPE</option>
-                      <option value="">All</option>
-                                              <option value="1">High Rise</option>
-                                              <option value="2">Studio</option>
-                                              <option value="4">Penthouse</option>
-                                              <option value="5">Independent Floors</option>
-                                              <option value="6">Villas</option>
-                                              <option value="7">Plots</option>
-                                          </select>
-                </div>
-            </div>
-            
-            <div class="from-flex hide_box1" id="pro_status_box">
-                <div class="caret">
-                    <select class="form-control js-example-basic-single" name="pro_status" id="pro_status">
-                      <option value="">PROJECT STATUS</option>
-                       <option value="">All</option>
-                       <option value="Delivered">Delivered</option>
-                       <option value="Ready to Move In">Ready to Move In</option>
-                       <option value="Under construction">Under construction</option>
-                       <option value="New Launch">New Launch</option>
-                    </select>
-                </div>
-            </div>
-            <div class="from-flex" id="leasingProjects" style="display:none">
-                <div class="caret">
-                    <select class="form-control js-example-basic-single" name="leasing_projects" id="leasing_projects">
-                      <option value="">SELECT PROJECTS</option>
-                       <option value="Central Park Resorts">Central Park Resorts</option>
-                       <option value="The Room">The Room</option>
-                       <option value="Central Park Flower Valley">Central Park Flower Valley</option>
-                    </select>
-                </div>
-            </div>
-            <div class="from-flex" id="leasing_pro_type" style="display:none">
-                <div class="caret">
-                    <select class="form-control js-example-basic-single" name="leasing_pro_types" id="leasing_pro_types">
-                      <option value="">PROJECT TYPES</option>
-                       <option value="2 BED">2 BED</option>
-                       <option value="2 BED+Study">2 BED+Study</option>
-                       <option value="3 BED">3 BED</option>
-                       <option value="3 BED+ Servant">3 BED+ Servant</option>
-                       <option value="Studio">Studio</option>
-                       <option value="1 BED Suite">1 BED Suite</option>
-                    </select>
-                </div>
-            </div>
-            <div class="from-flex">
-                <button type="button" id="submitall" value="submitall" class="btns searchByall searchwith"> <img src="images/footer_icon.svg" alt="arrow" /></button>
-            </div>
-        </form>
-        <div class="d-flex">
-            <div class="slider-range-wrap" id="price_range_box" style="display:none"> 
-            <label>Price</label>
-                <div id="slider-range"></div>
-                <span class="min-range">Min: 20,000</span>
-                <span class="max-range">Max: 1,50,000</span>
-                <input type="hidden" id="price_range">
-            </div>
-             <div class="slider-range-wrap" id="area_range_box" style="display:none"> 
-             <label>Area</label>
-                <div id="area-range"></div>
-                <span class="min-range">Min: 800</span>
-                <span class="max-range">Max: 4,000</span>
-                <input type="hidden" id="area_range">
-            </div>
-            
-        </div>
-
         
-        <div class="list_results" id="list_results">
-            
-            <input type="hidden" id="projects_sec" value="1">
-       
+        <div class="list_loop_cp">
+                <div><img src="./central_park_img/Amenities/cctv.jpg" class="w-100"></div>
+                <div class="border-box">
+                    <div class="d-flex btn__dlf display_box" id="pro20">
+                        <span class="left">Project</span>
+                        <span class="right">Flamingo Floors</span>
+    				</div>
+    				<br>
+    				<div class="d-flex btn__dlf display_box">
+    	                <span class="left">Typology</span>
+    	                <span class="right">3 BED (Second Floor)</span>
+    					<span class="w-auto"><img src="images/down-arrow.svg" class=""></span>
+    				</div>
+    				<div class="list-block" id="pro20-open" style="display: none;">
+    				        <p>Flamingo Floors</p>
+    				        <div class="stock-box">
+                            <span class="left">Rental(INR)</span>
+                            <span class="right">22000</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Furnishing Status</span>
+                            <span class="right">Semi Furnished</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Area(In sqft)</span>
+                            <span class="right">1230</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Address</span>
+                            <span class="right">Sector-32,33 Sohna, Gurugram -122103</span>
+                        </div>
+                        <a data-popup-open="popup-1" href="#" class="btns-line" id="know_more">Know More</a>
+                        </div>
+    			</div>
         </div>
-        <input type="hidden" id="page" value="1">
+        <div class="list_loop_cp">
+                <div><img src="images/projects/flamingo-floor-6.jpg" class="w-100"></div>
+                <div class="border-box">
+                    <div class="d-flex btn__dlf display_box" id="pro20">
+                        <span class="left">Project</span>
+                        <span class="right">Flamingo Floors</span>
+    				</div>
+    				<br>
+    				<div class="d-flex btn__dlf display_box">
+    	                <span class="left">Typology</span>
+    	                <span class="right">3 BED (Second Floor)</span>
+    					<span class="w-auto"><img src="images/down-arrow.svg" class=""></span>
+    				</div>
+    				<div class="list-block" id="pro20-open" style="display: none;">
+    				        <p>Flamingo Floors</p>
+    				        <div class="stock-box">
+                            <span class="left">Rental(INR)</span>
+                            <span class="right">22000</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Furnishing Status</span>
+                            <span class="right">Semi Furnished</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Area(In sqft)</span>
+                            <span class="right">1230</span>
+                        </div>
+                            <div class="stock-box">
+                            <span class="left">Address</span>
+                            <span class="right">Sector-32,33 Sohna, Gurugram -122103</span>
+                        </div>
+                        <a data-popup-open="popup-1" href="#" class="btns-line" id="know_more">Know More</a>
+                        </div>
+    			</div>
+        </div>
+    
+
     </div>
 </div>
 

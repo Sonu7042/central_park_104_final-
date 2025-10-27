@@ -9812,3 +9812,20 @@ button.acceptedds {
     color: #fff;
 }
 }
+
+
+
+/* banner img  */
+.banner_img{
+	width: 100wh;
+	height: 100vh;
+
+}
+
+
+.mainwrap .testimonialsection .vediogrid .vdgrid .vditemgrid .testimon .bgbackplay {
+    width: 100%;
+    float: left;
+    height: 284px;
+    padding-bottom: 10px;
+}
