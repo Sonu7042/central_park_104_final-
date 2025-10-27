@@ -9843,3 +9843,360 @@ button.acceptedds {
     color: #fff;
 }
 }
+
+
+
+/* banner img  */
+.banner_img{
+	width: 100wh;
+	height: 100vh;
+
+}
+
+
+.mainwrap .testimonialsection .vediogrid .vdgrid .vditemgrid .testimon .bgbackplay {
+    width: 100%;
+    float: left;
+    height: 284px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* roh css style */
+/* CSS */
+.cp104-text-container {
+	box-sizing: border-box;
+	max-width: 900px;
+	/* margin: 0 auto; */
+	padding-left: 60px;
+}
+
+/* Primary typography class */
+.cp104-text {
+	font-family: Optima;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(96, 96, 96);
+}
+
+/* Tweak for very small screens to keep line-height proportional */
+@media (max-width: 360px) {
+	.cp104-text {
+		font-size: 15px;
+		line-height: 24px;
+	}
+}
+
+/* Tweak for very large screens if you want slightly bigger text */
+@media (min-width: 1400px) {
+	.cp104-text {
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.display_none_mobile {
+		display: none;
+	}
+}
+
+/* roh css style */
+
+.custom--heading{
+	margin-top: 10px;
+
+}
+
+
+
+.mainwrap .projectssection {
+    width: 100%;
+    float: left;
+    position: relative !important;
+    background: rgba(255, 255, 255, .5);
+    padding-bottom: 53px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   Central Park 104 - Location Section
+   File: location.css
+   =========================== */
+
+.location-section {
+  padding: 80px 20px;
+  background-color: #fafafa;
+  font-family: Optima;
+  color: rgb(96, 96, 96);
+  margin: 25px 0;
+}
+
+/* Section Titles */
+.location-section .section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.location-section .section-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 50px;
+}
+
+/* Content Grid Layout */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Location List */
+.location-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.location-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.location-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Item Info */
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-info .icon {
+  color: #c4a34a; /* gold tone */
+  font-size: 18px;
+}
+
+.item-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+  line-height: 28px;
+}
+
+/* Right Column (Map) */
+.map-container {
+  width: 100%;
+  height: 560px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .location-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .section-subtitle {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .location-list li {
+    padding: 12px 14px;
+  }
+
+  .item-text {
+    font-size: 15px;
+  }
+
+  .item-info .icon {
+    font-size: 16px;
+  }
+
+  .map-container {
+    height: 320px;
+  }
+}
+
+
+
+
+/* Section Wrapper */
+.contact-section {
+  padding: 50px 5%;
+  background: #206046;
+}
+
+/* Main Flex Layout */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Left Image */
+.contact-img {
+  flex: 1;
+  min-width: 280px;
+  height: 250px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Right Side Content */
+.contact-content {
+  flex: 2;
+}
+
+/* Contact Details Row */
+.contact-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Individual Detail Box */
+.contact-details {
+  flex: 1 1 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.contact-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.location_icon{
+	color: red;
+}
+
+.fa-envelope{
+	color: burlywood;
+}
+
+.fa-phone{
+	color: greenyellow;
+}
+
+/* .contact-link:hover {
+  color: #b68d40;
+} */
+
+/* Bottom Message */
+.contact-btn-wrap {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-btn-wrap h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-details-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-details {
+    justify-content: center;
+  }
+
+  .contact-btn-wrap h3 {
+    font-size: 18px;
+  }
+}
